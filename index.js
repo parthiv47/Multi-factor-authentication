@@ -37,7 +37,7 @@ app.post("/sign-up", async (req,res)=>{
         if(existingUser)
         {
           
-          // res.render('index',{suggest:"User all ready exist"})
+          // res.render('index',{suggest:"User all ready exist"}
           
           // res.render('index.ejs',{suggest:"User all ready exist"})
            res.redirect("/?suggest=User all ready exist");

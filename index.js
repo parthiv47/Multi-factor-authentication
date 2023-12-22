@@ -40,7 +40,7 @@ app.post("/sign-up", async (req,res)=>{
             ob.otp = otp
             ob.email = userEmail
             ob.password = userPassword
-            console.log("3...")
+           // console.log("3...")
             res.render('verify_otp',{otp1:"otp send successfully ",email:userEmail,redirect:"/signup/dashboard"});
          
       }
